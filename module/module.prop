@@ -1,0 +1,6 @@
+id=gorilla_pubg_companion
+name=GORILLA KernelSU Companion
+version=0.1.0
+versionCode=1
+author=GORILLA Project
+description=Root diagnostics and companion settings for a self-contained test-scene visualizer. No PUBG process access, memory reading, input automation, or anti-cheat bypass.
