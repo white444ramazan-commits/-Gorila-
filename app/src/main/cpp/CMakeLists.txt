@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(gorilla_native LANGUAGES CXX)
+add_library(gorilla_native SHARED native-lib.cpp)
+target_compile_features(gorilla_native PRIVATE cxx_std_17)
+target_compile_options(gorilla_native PRIVATE -Wall -Wextra -Werror)
+find_library(log-lib log)
+target_link_libraries(gorilla_native PRIVATE ${log-lib})
